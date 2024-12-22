@@ -1,5 +1,7 @@
 ﻿using Jamesnet.Wpf.Global.Location;
 
+using KakaoTalk.Forms.Local.ViewModels;
+using KakaoTalk.Forms.UI.Views;
 using KakaoTalk.Friends.Local.ViewModels;
 using KakaoTalk.Friends.UI.Views;
 using KakaoTalk.Login.Local.ViewModels;
@@ -11,6 +13,7 @@ namespace KakaoTalk.Settings
     {
         protected override void Match(ViewModelLocatorCollection items)
         {
+            items.Register<KakaoWindow, KakaoViewModel>();
             items.Register<LoginContent, LoginContentViewModel>();
             items.Register<FriendsContent, FriendsContentViewModel>();
         }

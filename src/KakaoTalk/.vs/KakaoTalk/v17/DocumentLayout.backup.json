@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCFACBDA-A5C3-41FE-9071-E9DCAB818C73}|KakaoTalk.Friends\\KakaoTalk.Friends.csproj|d:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\c#study\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.friends\\local\\viewmodels\\friendscontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCFACBDA-A5C3-41FE-9071-E9DCAB818C73}|KakaoTalk.Friends\\KakaoTalk.Friends.csproj|solutionrelative:kakaotalk.friends\\local\\viewmodels\\friendscontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCFACBDA-A5C3-41FE-9071-E9DCAB818C73}|KakaoTalk.Friends\\KakaoTalk.Friends.csproj|d:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\c#study\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.friends\\themes\\views\\friendscontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FCFACBDA-A5C3-41FE-9071-E9DCAB818C73}|KakaoTalk.Friends\\KakaoTalk.Friends.csproj|solutionrelative:kakaotalk.friends\\themes\\views\\friendscontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}|KakaoTalk.Login\\KakaoTalk.Login.csproj|d:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\c#study\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.login\\local\\viewmodels\\logincontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}|KakaoTalk.Login\\KakaoTalk.Login.csproj|solutionrelative:kakaotalk.login\\local\\viewmodels\\logincontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCFACBDA-A5C3-41FE-9071-E9DCAB818C73}|KakaoTalk.Friends\\KakaoTalk.Friends.csproj|d:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\c#study\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.friends\\local\\viewmodels\\friendscontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCFACBDA-A5C3-41FE-9071-E9DCAB818C73}|KakaoTalk.Friends\\KakaoTalk.Friends.csproj|solutionrelative:kakaotalk.friends\\local\\viewmodels\\friendscontentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{206AA0EB-BDD7-4C4F-A4D9-1BAB0542E2D2}|KakaoTalk\\KakaoTalk.csproj|d:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\c#study\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk\\settings\\viewmodules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,23 +86,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Generic.xaml",
-              "DocumentMoniker": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Themes\\Generic.xaml",
-              "RelativeDocumentMoniker": "KakaoTalk.Friends\\Themes\\Generic.xaml",
-              "ToolTip": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Themes\\Generic.xaml",
-              "RelativeToolTip": "KakaoTalk.Friends\\Themes\\Generic.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-22T10:52:09.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FriendsContent.xaml",
               "DocumentMoniker": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Themes\\Views\\FriendsContent.xaml",
               "RelativeDocumentMoniker": "KakaoTalk.Friends\\Themes\\Views\\FriendsContent.xaml",
@@ -140,28 +128,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LoginContentViewModel.cs",
               "DocumentMoniker": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\Local\\ViewModels\\LoginContentViewModel.cs",
               "RelativeDocumentMoniker": "KakaoTalk.Login\\Local\\ViewModels\\LoginContentViewModel.cs",
               "ToolTip": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\Local\\ViewModels\\LoginContentViewModel.cs",
               "RelativeToolTip": "KakaoTalk.Login\\Local\\ViewModels\\LoginContentViewModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBsAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T09:21:22.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FriendsContentViewModel.cs",
               "DocumentMoniker": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Local\\ViewModels\\FriendsContentViewModel.cs",
               "RelativeDocumentMoniker": "KakaoTalk.Friends\\Local\\ViewModels\\FriendsContentViewModel.cs",
               "ToolTip": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Local\\ViewModels\\FriendsContentViewModel.cs",
               "RelativeToolTip": "KakaoTalk.Friends\\Local\\ViewModels\\FriendsContentViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T10:52:18.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Generic.xaml",
+              "DocumentMoniker": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Themes\\Generic.xaml",
+              "RelativeDocumentMoniker": "KakaoTalk.Friends\\Themes\\Generic.xaml",
+              "ToolTip": "D:\\\uCF54\uB529\uC790\uB8CC\uBAA8\uC74C\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\Themes\\Generic.xaml",
+              "RelativeToolTip": "KakaoTalk.Friends\\Themes\\Generic.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-22T10:52:09.582Z",
               "EditorCaption": ""
             },
             {
