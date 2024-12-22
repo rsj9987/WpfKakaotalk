@@ -16,5 +16,5 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 210-231757342
 Themes\Generic.xaml;Themes\Views\LoginContent.xaml;
 
-False
+True
 

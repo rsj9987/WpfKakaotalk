@@ -1,5 +1,6 @@
 ﻿using Jamesnet.Wpf.Controls;
 
+using KakaoTalk.Friends.UI.Views;
 using KakaoTalk.Login.UI.Views;
 
 using Prism.Ioc;
@@ -16,6 +17,7 @@ namespace KakaoTalk.Settings
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<IViewable, LoginContent>("LoginContent");
+            containerRegistry.RegisterSingleton<IViewable, FriendsContent>("FriendsContent");
         }
 
     }

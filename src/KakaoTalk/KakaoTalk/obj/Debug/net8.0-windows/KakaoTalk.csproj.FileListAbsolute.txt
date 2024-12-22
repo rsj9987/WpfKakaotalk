@@ -45,3 +45,5 @@ D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\YamlDotNet.NetCore.dll
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Login.dll
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Login.pdb
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Friends.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Friends.pdb

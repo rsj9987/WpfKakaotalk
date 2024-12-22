@@ -10,6 +10,7 @@
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
           "KakaoTalk.Forms": "1.0.0",
+          "KakaoTalk.Friends": "1.0.0",
           "KakaoTalk.Login": "1.0.0"
         },
         "runtime": {
@@ -362,6 +363,17 @@
           }
         }
       },
+      "KakaoTalk.Friends/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113"
+        },
+        "runtime": {
+          "KakaoTalk.Friends.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "KakaoTalk.Login/1.0.0": {
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113"
@@ -662,6 +674,11 @@
       "hashPath": "yamldotnet.netcore.1.0.0.nupkg.sha512"
     },
     "KakaoTalk.Forms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.Friends/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

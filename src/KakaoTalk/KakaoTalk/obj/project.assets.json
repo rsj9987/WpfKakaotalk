@@ -625,6 +625,22 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "KakaoTalk.Friends/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Friends.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Friends.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "KakaoTalk.Login/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2599,6 +2615,11 @@
       "path": "../KakaoTalk.Forms/KakaoTalk.Forms.csproj",
       "msbuildProject": "../KakaoTalk.Forms/KakaoTalk.Forms.csproj"
     },
+    "KakaoTalk.Friends/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Friends/KakaoTalk.Friends.csproj",
+      "msbuildProject": "../KakaoTalk.Friends/KakaoTalk.Friends.csproj"
+    },
     "KakaoTalk.Login/1.0.0": {
       "type": "project",
       "path": "../KakaoTalk.Login/KakaoTalk.Login.csproj",
@@ -2609,6 +2630,7 @@
     "net8.0-windows7.0": [
       "Jamesnet.Wpf >= 1.0.0.113",
       "KakaoTalk.Forms >= 1.0.0",
+      "KakaoTalk.Friends >= 1.0.0",
       "KakaoTalk.Login >= 1.0.0"
     ]
   },
@@ -2646,6 +2668,9 @@
           "projectReferences": {
             "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj": {
               "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj"
+            },
+            "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj": {
+              "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj"
             },
             "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj": {
               "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj"
