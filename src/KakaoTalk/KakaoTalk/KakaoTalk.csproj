@@ -19,6 +19,7 @@
     <ProjectReference Include="..\KakaoTalk.Friends\KakaoTalk.Friends.csproj" />
     <ProjectReference Include="..\KakaoTalk.Login\KakaoTalk.Login.csproj" />
     <ProjectReference Include="..\KakaoTalk.Main\KakaoTalk.Main.csproj" />
+    <ProjectReference Include="..\KakaoTalk.More\KakaoTalk.More.csproj" />
   </ItemGroup>
 
 </Project>

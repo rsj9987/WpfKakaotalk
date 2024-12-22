@@ -5,6 +5,7 @@ using KakaoTalk.Core.Names;
 using KakaoTalk.Friends.UI.Views;
 using KakaoTalk.Login.UI.Views;
 using KakaoTalk.Main.UI.Views;
+using KakaoTalk.More.UI.Views;
 
 using Prism.Ioc;
 using Prism.Modularity;
@@ -23,7 +24,7 @@ namespace KakaoTalk.Settings
             containerRegistry.RegisterSingleton<IViewable, MainContent>(ContentNameManager.Main);
             containerRegistry.RegisterSingleton<IViewable, FriendsContent>(ContentNameManager.Friends);
             containerRegistry.RegisterSingleton<IViewable, ChatsContent>(ContentNameManager.Chats);
-            //containerRegistry.RegisterSingleton<IViewable, MoreContent>(ContentNameManager.More);
+            containerRegistry.RegisterSingleton<IViewable, MoreContent>(ContentNameManager.More);
         }
 
     }

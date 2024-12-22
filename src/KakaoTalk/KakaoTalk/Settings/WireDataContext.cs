@@ -10,6 +10,8 @@ using KakaoTalk.Login.Local.ViewModels;
 using KakaoTalk.Login.UI.Views;
 using KakaoTalk.Main.Local.ViewModels;
 using KakaoTalk.Main.UI.Views;
+using KakaoTalk.More.Local.ViewModels;
+using KakaoTalk.More.UI.Views;
 
 namespace KakaoTalk.Settings
 {
@@ -22,6 +24,7 @@ namespace KakaoTalk.Settings
             items.Register<MainContent, MainContentViewModel>();
             items.Register<FriendsContent, FriendsContentViewModel>();
             items.Register<ChatsContent, ChatsContentViewModel>();
+            items.Register<MoreContent, MoreContentViewModel>();
         }
     }
 }
