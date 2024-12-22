@@ -9,7 +9,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.113" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\KakaoTalk.Forms\KakaoTalk.Forms.csproj" />
+    <ProjectReference Include="..\KakaoTalk.Login\KakaoTalk.Login.csproj" />
   </ItemGroup>
 
 </Project>

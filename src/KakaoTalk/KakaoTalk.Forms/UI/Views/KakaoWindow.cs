@@ -8,5 +8,6 @@ namespace KakaoTalk.Forms.UI.Views
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(KakaoWindow), new FrameworkPropertyMetadata(typeof(KakaoWindow)));
         }
+
     }
 }

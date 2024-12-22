@@ -31,3 +31,17 @@ D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Forms.pdb
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.csproj.AssemblyReference.cache
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.csproj.Up2Date
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\CommunityToolkit.Mvvm.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Jamesnet.Design.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Jamesnet.Wpf.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Prism.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Prism.Unity.Wpf.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Prism.Wpf.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Unity.Abstractions.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Unity.Container.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\WpfAutoGrid.Core.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\YamlDotNet.NetCore.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Login.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Login.pdb

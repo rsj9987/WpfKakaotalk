@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakaoTalk", "KakaoTalk\Kaka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakaoTalk.Forms", "KakaoTalk.Forms\KakaoTalk.Forms.csproj", "{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KakaoTalk.Login", "KakaoTalk.Login\KakaoTalk.Login.csproj", "{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Studio", "Studio", "{CFF4AC26-085E-43C4-85E9-8EFF45C4A160}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Partial", "Partial", "{32E96F37-DEDF-44E3-8735-615F8E488486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{206AA0EB-BDD7-4C4F-A4D9-1BAB0542E2D2} = {CFF4AC26-085E-43C4-85E9-8EFF45C4A160}
+		{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3} = {32E96F37-DEDF-44E3-8735-615F8E488486}
+		{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B} = {32E96F37-DEDF-44E3-8735-615F8E488486}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83E1F829-5C7C-4470-9D91-1D6CC7334A8F}

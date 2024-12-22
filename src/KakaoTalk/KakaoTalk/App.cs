@@ -1,17 +1,24 @@
 ﻿using System.Windows;
 
+using Jamesnet.Wpf.Controls;
+
 using KakaoTalk.Forms.UI.Views;
 
 namespace KakaoTalk
 {
-    internal class App : Application
+    internal class App : JamesApplication
     {
-        protected override void OnStartup(StartupEventArgs e)
+        protected override Window CreateShell()
         {
-            base.OnStartup(e);
-
-            KakaoWindow window = new();
-            window.Show();
+            return new KakaoWindow();
         }
+        //protected override void OnStartup(StartupEventArgs e)
+        //{
+        //    base.OnStartup(e);
+
+        //    KakaoWindow window = new();
+        //    window.Show();
+        //}
+
     }
 }
