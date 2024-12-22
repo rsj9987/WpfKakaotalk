@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KakaoTalk.Core/1.0.0": {
+        "runtime": {
+          "KakaoTalk.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KakaoTalk.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

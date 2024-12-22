@@ -17,3 +17,6 @@ D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Deb
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\KakaoTalk.Login.pdb
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\ref\KakaoTalk.Login.dll
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\KakaoTalk.Login.csproj.AssemblyReference.cache
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\bin\Debug\net8.0-windows\KakaoTalk.Core.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\bin\Debug\net8.0-windows\KakaoTalk.Core.pdb
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\KakaoTal.436A1B36.Up2Date

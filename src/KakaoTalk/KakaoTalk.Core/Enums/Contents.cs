@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace KakaoTalk.Core.Enums
 {
-    internal class Contents
+    public enum Contents
     {
+        Login,
+        Friends,
+
     }
 }
