@@ -9,6 +9,7 @@
       "KakaoTalk/1.0.0": {
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Chats": "1.0.0",
           "KakaoTalk.Core": "1.0.0",
           "KakaoTalk.Forms": "1.0.0",
           "KakaoTalk.Friends": "1.0.0",
@@ -351,6 +352,18 @@
           "lib/netstandard1.0/YamlDotNet.NetCore.dll": {
             "assemblyVersion": "0.0.1.0",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "KakaoTalk.Chats/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
+        },
+        "runtime": {
+          "KakaoTalk.Chats.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -697,6 +710,11 @@
       "sha512": "sha512-vPiKF4Yf02MS96Nzwcr8+WrvlhTx+camOgUzxhazU0hCzs2ESetWDCxaIT/MYdAw2oONYem1ow9PXWJjHkRUDw==",
       "path": "yamldotnet.netcore/1.0.0",
       "hashPath": "yamldotnet.netcore.1.0.0.nupkg.sha512"
+    },
+    "KakaoTalk.Chats/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "KakaoTalk.Core/1.0.0": {
       "type": "project",

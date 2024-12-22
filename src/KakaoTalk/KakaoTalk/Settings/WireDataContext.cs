@@ -1,5 +1,7 @@
 ﻿using Jamesnet.Wpf.Global.Location;
 
+using KakaoTalk.Chats.Local.ViewModels;
+using KakaoTalk.Chats.UI.Views;
 using KakaoTalk.Forms.Local.ViewModels;
 using KakaoTalk.Forms.UI.Views;
 using KakaoTalk.Friends.Local.ViewModels;
@@ -19,6 +21,7 @@ namespace KakaoTalk.Settings
             items.Register<LoginContent, LoginContentViewModel>();
             items.Register<MainContent, MainContentViewModel>();
             items.Register<FriendsContent, FriendsContentViewModel>();
+            items.Register<ChatsContent, ChatsContentViewModel>();
         }
     }
 }

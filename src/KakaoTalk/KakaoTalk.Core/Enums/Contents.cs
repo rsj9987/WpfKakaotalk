@@ -11,6 +11,8 @@ namespace KakaoTalk.Core.Enums
         Login,
         Main,
         Friends,
+        Chats,
+        More,
 
     }
 }

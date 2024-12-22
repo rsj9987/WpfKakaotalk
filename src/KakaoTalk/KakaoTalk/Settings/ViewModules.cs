@@ -1,5 +1,6 @@
 ﻿using Jamesnet.Wpf.Controls;
 
+using KakaoTalk.Chats.UI.Views;
 using KakaoTalk.Core.Names;
 using KakaoTalk.Friends.UI.Views;
 using KakaoTalk.Login.UI.Views;
@@ -21,6 +22,8 @@ namespace KakaoTalk.Settings
             containerRegistry.RegisterSingleton<IViewable, LoginContent>(ContentNameManager.Login);
             containerRegistry.RegisterSingleton<IViewable, MainContent>(ContentNameManager.Main);
             containerRegistry.RegisterSingleton<IViewable, FriendsContent>(ContentNameManager.Friends);
+            containerRegistry.RegisterSingleton<IViewable, ChatsContent>(ContentNameManager.Chats);
+            //containerRegistry.RegisterSingleton<IViewable, MoreContent>(ContentNameManager.More);
         }
 
     }

@@ -609,6 +609,23 @@
           "lib/netstandard1.0/YamlDotNet.NetCore.dll": {}
         }
       },
+      "KakaoTalk.Chats/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Chats.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Chats.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "KakaoTalk.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2643,6 +2660,11 @@
         "yamldotnet.netcore.nuspec"
       ]
     },
+    "KakaoTalk.Chats/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Chats/KakaoTalk.Chats.csproj",
+      "msbuildProject": "../KakaoTalk.Chats/KakaoTalk.Chats.csproj"
+    },
     "KakaoTalk.Core/1.0.0": {
       "type": "project",
       "path": "../KakaoTalk.Core/KakaoTalk.Core.csproj",
@@ -2672,6 +2694,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Jamesnet.Wpf >= 1.0.0.113",
+      "KakaoTalk.Chats >= 1.0.0",
       "KakaoTalk.Core >= 1.0.0",
       "KakaoTalk.Forms >= 1.0.0",
       "KakaoTalk.Friends >= 1.0.0",
@@ -2711,6 +2734,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj": {
+              "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj"
+            },
             "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
               "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
             },
