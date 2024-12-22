@@ -24,19 +24,16 @@ namespace KakaoTalk.Login.Local.ViewModels
         [RelayCommand]
         private void Login()
         {
-            // Region에 등록된 것을 string Index로 가져옴
             IRegion mainRegion = _regionManager.Regions[RegionNameManager.MainRegion];
-            // ViewModules에서 컨테이너에 등록된 FriendsContent를 가져옴
-            IViewable friendsContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Friends);
+            IViewable mainContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Main);
 
-            // FriendsContent 중복등록 예외처리
-            if (!mainRegion.Views.Contains(friendsContent))
+            if (!mainRegion.Views.Contains(mainContent))
             {
-                mainRegion.Add(friendsContent);
+                mainRegion.Add(mainContent);
             }
 
             // Friends Content로 변경
-            mainRegion.Activate(friendsContent);
+            mainRegion.Activate(mainContent);
         }
     }
 }

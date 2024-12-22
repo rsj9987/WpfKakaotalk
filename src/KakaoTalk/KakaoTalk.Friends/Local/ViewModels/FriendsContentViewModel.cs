@@ -27,14 +27,14 @@ namespace KakaoTalk.Friends.Local.ViewModels
         {
             IRegion mainRegion = _regionManager.Regions[RegionNameManager.MainRegion];
 
-            var loginContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Login);
+            var mainContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Main);
 
-            if (!mainRegion.Views.Contains(loginContent))
+            if (!mainRegion.Views.Contains(mainContent))
             {
-                mainRegion.Add(loginContent);
+                mainRegion.Add(mainContent);
             }
 
-            mainRegion.Activate(loginContent);
+            mainRegion.Activate(mainContent);
         }
     }
 }

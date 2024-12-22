@@ -672,6 +672,23 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "KakaoTalk.Main/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Main.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Main.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -2645,6 +2662,11 @@
       "type": "project",
       "path": "../KakaoTalk.Login/KakaoTalk.Login.csproj",
       "msbuildProject": "../KakaoTalk.Login/KakaoTalk.Login.csproj"
+    },
+    "KakaoTalk.Main/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Main/KakaoTalk.Main.csproj",
+      "msbuildProject": "../KakaoTalk.Main/KakaoTalk.Main.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2653,7 +2675,8 @@
       "KakaoTalk.Core >= 1.0.0",
       "KakaoTalk.Forms >= 1.0.0",
       "KakaoTalk.Friends >= 1.0.0",
-      "KakaoTalk.Login >= 1.0.0"
+      "KakaoTalk.Login >= 1.0.0",
+      "KakaoTalk.Main >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2699,6 +2722,9 @@
             },
             "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj": {
               "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj"
+            },
+            "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj": {
+              "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj"
             }
           }
         }
