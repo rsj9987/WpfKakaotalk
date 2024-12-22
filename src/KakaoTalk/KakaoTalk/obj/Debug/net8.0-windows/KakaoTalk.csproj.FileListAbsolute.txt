@@ -1,0 +1,14 @@
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.exe
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.deps.json
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.runtimeconfig.json
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.dll
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.pdb
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.GeneratedMSBuildEditorConfig.editorconfig
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.AssemblyInfoInputs.cache
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.AssemblyInfo.cs
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.csproj.CoreCompileInputs.cache
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.dll
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\refint\KakaoTalk.dll
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.pdb
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.genruntimeconfig.cache
+D:\코딩자료모음\C#Study\KakaoTalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\ref\KakaoTalk.dll
