@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3LT5+lVu3dMg4xonkJldnxLAPGWZ8RqFhC0xfJvJLta1+JHrERxvVBf+OehLjwLBhdLMZjm5CtKUlp/NsLK3Hg==",
+  "dgSpecHash": "//neUW7zi9c=",
   "success": true,
-  "projectFilePath": "D:\\코딩자료모음\\C#Study\\KakaoTalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj",
+  "projectFilePath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

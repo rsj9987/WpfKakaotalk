@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "KakaoTalk/1.0.0": {
+        "dependencies": {
+          "KakaoTalk.Forms": "1.0.0"
+        },
         "runtime": {
           "KakaoTalk.dll": {}
+        }
+      },
+      "KakaoTalk.Forms/1.0.0": {
+        "runtime": {
+          "KakaoTalk.Forms.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "KakaoTalk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.Forms/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
