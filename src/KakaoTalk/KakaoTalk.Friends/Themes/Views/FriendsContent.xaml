@@ -19,7 +19,7 @@
                                     Margin="10"
                                     Padding="8 4 8 4"
                                     HorizontalAlignment="left"
-                                    Command="{Binding LoginCommand}"/>
+                                    Command="{Binding LogoutCommand}"/>
 
                         </StackPanel>
                     </Border>

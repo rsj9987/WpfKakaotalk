@@ -609,11 +609,25 @@
           "lib/netstandard1.0/YamlDotNet.NetCore.dll": {}
         }
       },
+      "KakaoTalk.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/KakaoTalk.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Core.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "KakaoTalk.Forms/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.113"
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.Forms.dll": {}
@@ -629,7 +643,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.113"
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.Friends.dll": {}
@@ -645,7 +660,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.113"
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.Login.dll": {}
@@ -2610,6 +2626,11 @@
         "yamldotnet.netcore.nuspec"
       ]
     },
+    "KakaoTalk.Core/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Core/KakaoTalk.Core.csproj",
+      "msbuildProject": "../KakaoTalk.Core/KakaoTalk.Core.csproj"
+    },
     "KakaoTalk.Forms/1.0.0": {
       "type": "project",
       "path": "../KakaoTalk.Forms/KakaoTalk.Forms.csproj",
@@ -2629,6 +2650,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Jamesnet.Wpf >= 1.0.0.113",
+      "KakaoTalk.Core >= 1.0.0",
       "KakaoTalk.Forms >= 1.0.0",
       "KakaoTalk.Friends >= 1.0.0",
       "KakaoTalk.Login >= 1.0.0"
@@ -2666,6 +2688,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+              "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+            },
             "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj": {
               "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj"
             },

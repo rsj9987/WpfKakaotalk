@@ -3,6 +3,8 @@
 using Jamesnet.Wpf.Controls;
 using Jamesnet.Wpf.Mvvm;
 
+using KakaoTalk.Core.Names;
+
 using Prism.Ioc;
 using Prism.Regions;
 
@@ -21,11 +23,11 @@ namespace KakaoTalk.Friends.Local.ViewModels
 
 
         [RelayCommand]
-        private void Login()
+        private void Logout()
         {
-            IRegion mainRegion = _regionManager.Regions["MainRegion"];
+            IRegion mainRegion = _regionManager.Regions[RegionNameManager.MainRegion];
 
-            var loginContent = _containerProvider.Resolve<IViewable>("LoginContent");
+            var loginContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Login);
 
             if (!mainRegion.Views.Contains(loginContent))
             {
