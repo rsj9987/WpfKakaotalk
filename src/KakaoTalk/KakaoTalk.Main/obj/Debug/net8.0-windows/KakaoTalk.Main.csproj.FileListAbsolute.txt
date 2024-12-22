@@ -20,3 +20,5 @@ D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debu
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\refint\KakaoTalk.Main.dll
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\KakaoTalk.Main.pdb
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\ref\KakaoTalk.Main.dll
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\Themes\Units\VerticalMenuList.baml
+D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\Themes\Units\VerticalMenuListItem.baml

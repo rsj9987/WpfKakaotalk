@@ -5,6 +5,12 @@
     <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Units\VerticalMenuListItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Units\VerticalMenuList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Views\MainContent.xaml">
       <SubType>Designer</SubType>
     </Page>

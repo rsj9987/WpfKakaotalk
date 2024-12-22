@@ -1,8 +1,11 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 using Jamesnet.Wpf.Controls;
 using Jamesnet.Wpf.Mvvm;
 
+using KakaoTalk.Core.Models;
 using KakaoTalk.Core.Names;
 
 using Prism.Ioc;
@@ -15,40 +18,44 @@ namespace KakaoTalk.Main.Local.ViewModels
         private readonly IRegionManager _regionManager;
         private readonly IContainerProvider _containerProvider;
 
+        [ObservableProperty]
+        private List<MenuModel> _menus;
+
+        [ObservableProperty]
+        private MenuModel _menu;
+
         public MainContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider)
         {
             _regionManager = regionManager;
             _containerProvider = containerProvider;
+
+            Menus = GetMenus();
         }
 
-        [RelayCommand]
-        private void Chats()
+        partial void OnMenuChanged(MenuModel value)
         {
             IRegion contentRegion = _regionManager.Regions[RegionNameManager.ContentRegion];
 
-            var chatsContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Chats);
+            var content = _containerProvider.Resolve<IViewable>(value.Id);
 
-            if (!contentRegion.Views.Contains(chatsContent))
+            if (!contentRegion.Views.Contains(content))
             {
-                contentRegion.Add(chatsContent);
+                contentRegion.Add(content);
             }
 
-            contentRegion.Activate(chatsContent);
+            contentRegion.Activate(content);
         }
 
-        [RelayCommand]
-        private void Friends()
+        private List<MenuModel> GetMenus()
         {
-            IRegion contentRegion = _regionManager.Regions[RegionNameManager.ContentRegion];
-
-            var friendsContent = _containerProvider.Resolve<IViewable>(ContentNameManager.Friends);
-
-            if (!contentRegion.Views.Contains(friendsContent))
+            List<MenuModel> source = new()
             {
-                contentRegion.Add(friendsContent);
-            }
+                new MenuModel().DataGetn(ContentNameManager.Chats),
+                new MenuModel().DataGetn(ContentNameManager.Friends),
+                new MenuModel().DataGetn(ContentNameManager.More),
+            };
 
-            contentRegion.Activate(friendsContent);
+            return source;
         }
 
         [RelayCommand]
