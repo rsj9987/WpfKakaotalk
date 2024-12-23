@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj": {}
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj": {}
   },
   "projects": {
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj",
         "projectName": "KakaoTalk.Chats",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               }
             }
           }
@@ -47,8 +48,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -78,24 +78,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj",
         "projectName": "KakaoTalk.Core",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -104,6 +104,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -121,8 +122,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -146,24 +146,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj",
         "projectName": "KakaoTalk.Forms",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -172,14 +172,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               }
             }
           }
@@ -193,8 +194,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -224,24 +224,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj",
         "projectName": "KakaoTalk.Friends",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -250,14 +250,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               }
             }
           }
@@ -271,8 +272,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -302,24 +302,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj",
         "projectName": "KakaoTalk.Login",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -328,14 +328,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               }
             }
           }
@@ -349,8 +350,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -380,24 +380,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj",
         "projectName": "KakaoTalk.Main",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -406,14 +406,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               }
             }
           }
@@ -427,8 +428,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -458,24 +458,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj",
         "projectName": "KakaoTalk.More",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -484,14 +484,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               }
             }
           }
@@ -505,8 +506,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -536,24 +536,24 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj": {
+    "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj",
+        "projectUniqueName": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj",
         "projectName": "KakaoTalk",
-        "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj",
-        "packagesPath": "C:\\Users\\rsj99\\.nuget\\packages\\",
-        "outputPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\obj\\",
+        "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\KakaoTalk.csproj",
+        "packagesPath": "C:\\Users\\ANH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rsj99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ANH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -562,32 +562,33 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Chats\\KakaoTalk.Chats.csproj"
               },
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
               },
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\KakaoTalk.Forms.csproj"
               },
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends\\KakaoTalk.Friends.csproj"
               },
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj"
               },
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Main\\KakaoTalk.Main.csproj"
               },
-              "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj": {
-                "projectPath": "D:\\코딩자료모음\\C#Study\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj"
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj"
               }
             }
           }
@@ -601,8 +602,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -632,7 +632,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
