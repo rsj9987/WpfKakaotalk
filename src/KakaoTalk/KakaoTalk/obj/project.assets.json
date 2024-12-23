@@ -661,7 +661,9 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
-          "KakaoTalk.Core": "1.0.0"
+          "KakaoTalk.Core": "1.0.0",
+          "KakaoTalk.Friends.Birth": "1.0.0",
+          "KakaoTalk.Friends.Favorite": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.Friends.dll": {}
@@ -673,9 +675,44 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
+      "KakaoTalk.Friends.Birth/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "KakaoTalk.LayoutSupport": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Friends.Birth.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Friends.Birth.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "KakaoTalk.Friends.Favorite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "KakaoTalk.LayoutSupport": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Friends.Favorite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Friends.Favorite.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "KakaoTalk.LayoutSupport/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113"
+        },
         "compile": {
           "bin/placeholder/KakaoTalk.LayoutSupport.dll": {}
         },
@@ -2710,6 +2747,16 @@
       "type": "project",
       "path": "../KakaoTalk.Friends/KakaoTalk.Friends.csproj",
       "msbuildProject": "../KakaoTalk.Friends/KakaoTalk.Friends.csproj"
+    },
+    "KakaoTalk.Friends.Birth/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Friends.Birth/KakaoTalk.Friends.Birth.csproj",
+      "msbuildProject": "../KakaoTalk.Friends.Birth/KakaoTalk.Friends.Birth.csproj"
+    },
+    "KakaoTalk.Friends.Favorite/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Friends.Favorite/KakaoTalk.Friends.Favorite.csproj",
+      "msbuildProject": "../KakaoTalk.Friends.Favorite/KakaoTalk.Friends.Favorite.csproj"
     },
     "KakaoTalk.LayoutSupport/1.0.0": {
       "type": "project",

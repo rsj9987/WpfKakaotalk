@@ -9,7 +9,9 @@
       "KakaoTalk.Friends/1.0.0": {
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
-          "KakaoTalk.Core": "1.0.0"
+          "KakaoTalk.Core": "1.0.0",
+          "KakaoTalk.Friends.Birth": "1.0.0",
+          "KakaoTalk.Friends.Favorite": "1.0.0"
         },
         "runtime": {
           "KakaoTalk.Friends.dll": {}
@@ -357,6 +359,39 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "KakaoTalk.Friends.Birth/1.0.0": {
+        "dependencies": {
+          "KakaoTalk.LayoutSupport": "1.0.0"
+        },
+        "runtime": {
+          "KakaoTalk.Friends.Birth.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "KakaoTalk.Friends.Favorite/1.0.0": {
+        "dependencies": {
+          "KakaoTalk.LayoutSupport": "1.0.0"
+        },
+        "runtime": {
+          "KakaoTalk.Friends.Favorite.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "KakaoTalk.LayoutSupport/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113"
+        },
+        "runtime": {
+          "KakaoTalk.LayoutSupport.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -647,6 +682,21 @@
       "hashPath": "yamldotnet.netcore.1.0.0.nupkg.sha512"
     },
     "KakaoTalk.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.Friends.Birth/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.Friends.Favorite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.LayoutSupport/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -360,6 +360,9 @@
         }
       },
       "KakaoTalk.LayoutSupport/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113"
+        },
         "runtime": {
           "KakaoTalk.LayoutSupport.dll": {
             "assemblyVersion": "1.0.0",

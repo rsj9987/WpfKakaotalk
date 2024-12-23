@@ -42,3 +42,9 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friend
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\obj\Debug\net8.0-windows\refint\KakaoTalk.Friends.dll
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\obj\Debug\net8.0-windows\KakaoTalk.Friends.pdb
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\obj\Debug\net8.0-windows\ref\KakaoTalk.Friends.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\bin\Debug\net8.0-windows\KakaoTalk.Friends.Birth.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\bin\Debug\net8.0-windows\KakaoTalk.LayoutSupport.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\bin\Debug\net8.0-windows\KakaoTalk.Friends.Birth.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\bin\Debug\net8.0-windows\KakaoTalk.LayoutSupport.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\bin\Debug\net8.0-windows\KakaoTalk.Friends.Favorite.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends\bin\Debug\net8.0-windows\KakaoTalk.Friends.Favorite.pdb
