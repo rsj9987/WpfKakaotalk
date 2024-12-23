@@ -3,6 +3,7 @@
     
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/PlaceholderTextBox.xaml"/>
+        <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/PlaceholderPasswordBox.xaml"/>
         <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/TaskBarButton.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     
