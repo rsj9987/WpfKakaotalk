@@ -6,6 +6,7 @@
     xmlns:names="clr-namespace:KakaoTalk.Core.Names;assembly=KakaoTalk.Core">
 
     <Style TargetType="{x:Type views:KakaoWindow}">
+        <Setter Property="SizeToContent" Value="WidthAndHeight"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type views:KakaoWindow}">

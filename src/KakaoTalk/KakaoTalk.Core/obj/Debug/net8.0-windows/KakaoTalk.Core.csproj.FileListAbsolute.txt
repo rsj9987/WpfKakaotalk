@@ -10,3 +10,15 @@ D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debu
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\refint\KakaoTalk.Core.dll
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.pdb
 D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\ref\KakaoTalk.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\bin\Debug\net8.0-windows\KakaoTalk.Core.deps.json
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\bin\Debug\net8.0-windows\KakaoTalk.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\bin\Debug\net8.0-windows\KakaoTalk.Core.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.AssemblyInfoInputs.cache
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.AssemblyInfo.cs
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.csproj.CoreCompileInputs.cache
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.sourcelink.json
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\refint\KakaoTalk.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\KakaoTalk.Core.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Core\obj\Debug\net8.0-windows\ref\KakaoTalk.Core.dll

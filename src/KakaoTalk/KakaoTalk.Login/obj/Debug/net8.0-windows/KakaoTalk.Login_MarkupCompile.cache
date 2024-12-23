@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\
 KakaoTalk.Login
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 2-182936028
 
 4-778860625
-211-1960228182
+211-1264644507
 Themes\Generic.xaml;Themes\Views\LoginContent.xaml;
 
 False

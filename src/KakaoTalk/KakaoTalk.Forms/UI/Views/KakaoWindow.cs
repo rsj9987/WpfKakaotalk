@@ -11,5 +11,12 @@ namespace KakaoTalk.Forms.UI.Views
             DefaultStyleKeyProperty.OverrideMetadata(typeof(KakaoWindow), new FrameworkPropertyMetadata(typeof(KakaoWindow)));
         }
 
+        //public KakaoWindow()
+        //{
+        //// 투명도 조절해서 이미지에 맞춰보기 위해 작성
+        //WindowStyle = WindowStyle.None;
+        //AllowsTransparency = true;
+        //}
+
     }
 }

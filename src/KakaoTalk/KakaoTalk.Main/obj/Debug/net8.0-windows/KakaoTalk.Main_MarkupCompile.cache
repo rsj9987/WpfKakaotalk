@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\코딩자료모음\C#Study\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Main\obj\Debug\net8.0-windows\
 KakaoTalk.Main
 none
 false
@@ -13,7 +13,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 4-2015865840
 
 6548906917
-211-1960228182
+211-1264644507
 Themes\Generic.xaml;Themes\Units\VerticalMenuList.xaml;Themes\Units\VerticalMenuListItem.xaml;Themes\Views\MainContent.xaml;
 
 False
