@@ -19,10 +19,10 @@ namespace KakaoTalk.Main.Local.ViewModels
         private readonly IContainerProvider _containerProvider;
 
         [ObservableProperty]
-        private List<MenuModel> _menus;
+        private List<MenuModel> _menus = default!;
 
         [ObservableProperty]
-        private MenuModel _menu;
+        private MenuModel _menu = default!;
 
         public MainContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider)
         {

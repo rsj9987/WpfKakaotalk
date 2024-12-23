@@ -1,8 +1,9 @@
 <ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:KakaoTalk.Login">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/KakaoTalk.Login;component/Themes/Views/LoginContent.xaml"/>
     </ResourceDictionary.MergedDictionaries>
+    
 </ResourceDictionary>

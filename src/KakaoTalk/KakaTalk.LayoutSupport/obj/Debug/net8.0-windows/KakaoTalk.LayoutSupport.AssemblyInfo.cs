@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KakaoTalk.LayoutSupport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf4b601b90a47f5812bf9fb92cc1cae4f821d8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b4bf665caeb1e57372eac91e007e2ed4db170cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("KakaoTalk.LayoutSupport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KakaoTalk.LayoutSupport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

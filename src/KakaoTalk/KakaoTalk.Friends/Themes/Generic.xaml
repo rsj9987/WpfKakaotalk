@@ -1,8 +1,10 @@
 <ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="clr-namespace:KakaoTalk.Friends">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/KakaoTalk.Friends;component/Themes/Views/FriendsContent.xaml"/>
     </ResourceDictionary.MergedDictionaries>
+    
 </ResourceDictionary>
+    

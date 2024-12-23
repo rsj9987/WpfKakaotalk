@@ -1,7 +1,9 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:KakaoTalk.LayoutSupport">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
     <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/PlaceholderTextBox.xaml"/>
         <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/TaskBarButton.xaml"/>
     </ResourceDictionary.MergedDictionaries>
+    
 </ResourceDictionary>

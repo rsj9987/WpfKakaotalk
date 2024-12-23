@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-21381354533
+397220055
 
-51659471025
+61118185689
 198-556154604
-Themes\Generic.xaml;Themes\UI\TaskBarButton.xaml;
+Themes\Generic.xaml;Themes\UI\PlaceholderTextBox.xaml;Themes\UI\TaskBarButton.xaml;
 
 True
 
