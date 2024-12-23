@@ -42,3 +42,5 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\refint\KakaoTalk.Login.dll
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\KakaoTalk.Login.pdb
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\obj\Debug\net8.0-windows\ref\KakaoTalk.Login.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\bin\Debug\net8.0-windows\KakaoTalk.LayoutSupport.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Login\bin\Debug\net8.0-windows\KakaoTalk.LayoutSupport.pdb

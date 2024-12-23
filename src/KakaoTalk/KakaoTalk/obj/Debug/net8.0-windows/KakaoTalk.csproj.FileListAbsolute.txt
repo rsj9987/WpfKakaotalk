@@ -98,3 +98,5 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\obj\De
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.pdb
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\KakaoTalk.genruntimeconfig.cache
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\obj\Debug\net8.0-windows\ref\KakaoTalk.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.LayoutSupport.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.LayoutSupport.pdb

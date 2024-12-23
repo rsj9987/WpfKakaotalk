@@ -3,7 +3,7 @@ using System.Windows.Controls;
 
 namespace KakaoTalk.LayoutSupport.UI.Units
 {
-    public class TaskBarButton : Control
+    public class TaskBarButton : Button
     {
         static TaskBarButton()
         {

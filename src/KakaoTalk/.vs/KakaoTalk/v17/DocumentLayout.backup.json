@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}|KakaoTalk.Login\\KakaoTalk.Login.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.login\\themes\\views\\logincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}|KakaoTalk.Login\\KakaoTalk.Login.csproj|solutionrelative:kakaotalk.login\\themes\\views\\logincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakatalk.layoutsupport\\themes\\ui\\taskbarbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj|solutionrelative:kakatalk.layoutsupport\\themes\\ui\\taskbarbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaTalk.LayoutSupport.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakatalk.layoutsupport\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaTalk.LayoutSupport.csproj|solutionrelative:kakatalk.layoutsupport\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}|KakaoTalk.Forms\\KakaoTalk.Forms.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.forms\\themes\\views\\kakaowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}|KakaoTalk.Forms\\KakaoTalk.Forms.csproj|solutionrelative:kakaotalk.forms\\themes\\views\\kakaowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakatalk.layoutsupport\\ui\\units\\taskbarbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj|solutionrelative:kakatalk.layoutsupport\\ui\\units\\taskbarbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaTalk.LayoutSupport.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakatalk.layoutsupport\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaTalk.LayoutSupport.csproj|solutionrelative:kakatalk.layoutsupport\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87535CCF-7215-43A8-B1AB-7A02E4726CA6}|KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakatalk.layoutsupport\\kakaotalk.layoutsupport.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -25,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}|KakaoTalk.Forms\\KakaoTalk.Forms.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.forms\\ui\\views\\kakaowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}|KakaoTalk.Forms\\KakaoTalk.Forms.csproj|solutionrelative:kakaotalk.forms\\ui\\views\\kakaowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}|KakaoTalk.Forms\\KakaoTalk.Forms.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.forms\\themes\\views\\kakaowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{74D0E2A8-BEE2-4131-B2E3-864AD6549AB3}|KakaoTalk.Forms\\KakaoTalk.Forms.csproj|solutionrelative:kakaotalk.forms\\themes\\views\\kakaowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}|KakaoTalk.Login\\KakaoTalk.Login.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.login\\themes\\views\\logincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EAD4EFCD-AEFC-4C23-9E84-F0474DBEFF6B}|KakaoTalk.Login\\KakaoTalk.Login.csproj|solutionrelative:kakaotalk.login\\themes\\views\\logincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAFB4DDC-C354-4746-83D1-6CFCF43944BD}|KakaoTalk.Main\\KakaoTalk.Main.csproj|c:\\users\\anh\\desktop\\sources\\wpf\\try\\wpfkakaotalk\\src\\kakaotalk\\kakaotalk.main\\themes\\views\\maincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -202,11 +202,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskBarButton.xaml",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\Themes\\UI\\TaskBarButton.xaml",
               "RelativeDocumentMoniker": "KakaTalk.LayoutSupport\\Themes\\UI\\TaskBarButton.xaml",
@@ -218,42 +222,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "KakaoTalk.LayoutSupport.csproj",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj",
               "RelativeDocumentMoniker": "KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj",
-              "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj*",
-              "RelativeToolTip": "KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj*",
+              "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj",
+              "RelativeToolTip": "KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-23T02:43:21.379Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaskBarButton.cs",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\UI\\Units\\TaskBarButton.cs",
               "RelativeDocumentMoniker": "KakaTalk.LayoutSupport\\UI\\Units\\TaskBarButton.cs",
               "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\UI\\Units\\TaskBarButton.cs",
               "RelativeToolTip": "KakaTalk.LayoutSupport\\UI\\Units\\TaskBarButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T02:43:51.651Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Generic.xaml",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\Themes\\Generic.xaml",
               "RelativeDocumentMoniker": "KakaTalk.LayoutSupport\\Themes\\Generic.xaml",
-              "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\Themes\\Generic.xaml*",
-              "RelativeToolTip": "KakaTalk.LayoutSupport\\Themes\\Generic.xaml*",
+              "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\Themes\\Generic.xaml",
+              "RelativeToolTip": "KakaTalk.LayoutSupport\\Themes\\Generic.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-12-23T02:42:34.848Z",
               "EditorCaption": ""
@@ -273,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "LoginContent.xaml",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\Themes\\Views\\LoginContent.xaml",
               "RelativeDocumentMoniker": "KakaoTalk.Login\\Themes\\Views\\LoginContent.xaml",
@@ -298,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "KakaoWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\Themes\\Views\\KakaoWindow.xaml",
               "RelativeDocumentMoniker": "KakaoTalk.Forms\\Themes\\Views\\KakaoWindow.xaml",
@@ -334,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Generic.xaml",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\Themes\\Generic.xaml",
               "RelativeDocumentMoniker": "KakaoTalk.Forms\\Themes\\Generic.xaml",
@@ -359,12 +359,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "KakaoWindow.cs",
               "DocumentMoniker": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\UI\\Views\\KakaoWindow.cs",
               "RelativeDocumentMoniker": "KakaoTalk.Forms\\UI\\Views\\KakaoWindow.cs",
-              "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\UI\\Views\\KakaoWindow.cs*",
-              "RelativeToolTip": "KakaoTalk.Forms\\UI\\Views\\KakaoWindow.cs*",
+              "ToolTip": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Forms\\UI\\Views\\KakaoWindow.cs",
+              "RelativeToolTip": "KakaoTalk.Forms\\UI\\Views\\KakaoWindow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-22T07:50:17.788Z",

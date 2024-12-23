@@ -621,6 +621,19 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "KakaoTalk.LayoutSupport/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/KakaoTalk.LayoutSupport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.LayoutSupport.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -2579,12 +2592,18 @@
       "type": "project",
       "path": "../KakaoTalk.Core/KakaoTalk.Core.csproj",
       "msbuildProject": "../KakaoTalk.Core/KakaoTalk.Core.csproj"
+    },
+    "KakaoTalk.LayoutSupport/1.0.0": {
+      "type": "project",
+      "path": "../KakaTalk.LayoutSupport/KakaoTalk.LayoutSupport.csproj",
+      "msbuildProject": "../KakaTalk.LayoutSupport/KakaoTalk.LayoutSupport.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "Jamesnet.Wpf >= 1.0.0.113",
-      "KakaoTalk.Core >= 1.0.0"
+      "KakaoTalk.Core >= 1.0.0",
+      "KakaoTalk.LayoutSupport >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2622,6 +2641,9 @@
           "projectReferences": {
             "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
               "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+            },
+            "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj": {
+              "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj"
             }
           }
         }

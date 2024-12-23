@@ -400,10 +400,19 @@
           }
         }
       },
+      "KakaoTalk.LayoutSupport/1.0.0": {
+        "runtime": {
+          "KakaoTalk.LayoutSupport.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "KakaoTalk.Login/1.0.0": {
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
-          "KakaoTalk.Core": "1.0.0"
+          "KakaoTalk.Core": "1.0.0",
+          "KakaoTalk.LayoutSupport": "1.0.0"
         },
         "runtime": {
           "KakaoTalk.Login.dll": {
@@ -740,6 +749,11 @@
       "sha512": ""
     },
     "KakaoTalk.Friends/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.LayoutSupport/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
