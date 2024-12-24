@@ -774,6 +774,23 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "KakaoTalk.Talk/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Talk.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Talk.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -2777,6 +2794,11 @@
       "type": "project",
       "path": "../KakaoTalk.More/KakaoTalk.More.csproj",
       "msbuildProject": "../KakaoTalk.More/KakaoTalk.More.csproj"
+    },
+    "KakaoTalk.Talk/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Talk/KakaoTalk.Talk.csproj",
+      "msbuildProject": "../KakaoTalk.Talk/KakaoTalk.Talk.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2788,7 +2810,8 @@
       "KakaoTalk.Friends >= 1.0.0",
       "KakaoTalk.Login >= 1.0.0",
       "KakaoTalk.Main >= 1.0.0",
-      "KakaoTalk.More >= 1.0.0"
+      "KakaoTalk.More >= 1.0.0",
+      "KakaoTalk.Talk >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2844,6 +2867,9 @@
             },
             "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj": {
               "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.More\\KakaoTalk.More.csproj"
+            },
+            "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Talk\\KakaoTalk.Talk.csproj": {
+              "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Talk\\KakaoTalk.Talk.csproj"
             }
           }
         }

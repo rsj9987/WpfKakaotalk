@@ -10,7 +10,7 @@ using KakaoTalk.More.UI.Views;
 using Prism.Ioc;
 using Prism.Modularity;
 
-namespace KakaoTalk.Settings
+namespace KakaoTalk.Properties
 {
     internal class ViewModules : IModule
     {

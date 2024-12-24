@@ -13,7 +13,7 @@ using Prism.Regions;
 
 namespace KakaoTalk.Main.Local.ViewModels
 {
-    public partial class MainContentViewModel : ObservableBase
+    public partial class MainContentViewModel : ObservableBase, IViewLoadable
     {
         private readonly IRegionManager _regionManager;
         private readonly IContainerProvider _containerProvider;
@@ -29,29 +29,35 @@ namespace KakaoTalk.Main.Local.ViewModels
             _regionManager = regionManager;
             _containerProvider = containerProvider;
 
-            Menus = GetMenus();
         }
 
         partial void OnMenuChanged(MenuModel value)
         {
-            IRegion contentRegion = _regionManager.Regions[RegionNameManager.ContentRegion];
-
-            var content = _containerProvider.Resolve<IViewable>(value.Id);
-
-            if (!contentRegion.Views.Contains(content))
+            try
             {
-                contentRegion.Add(content);
-            }
+                IRegion contentRegion = _regionManager.Regions[RegionNameManager.ContentRegion];
 
-            contentRegion.Activate(content);
+                var content = _containerProvider.Resolve<IViewable>(value.Id);
+
+                if (!contentRegion.Views.Contains(content))
+                {
+                    contentRegion.Add(content);
+                }
+
+                contentRegion.Activate(content);
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         private List<MenuModel> GetMenus()
         {
             List<MenuModel> source = new()
             {
-                new MenuModel().DataGetn(ContentNameManager.Chats),
                 new MenuModel().DataGetn(ContentNameManager.Friends),
+                new MenuModel().DataGetn(ContentNameManager.Chats),
                 new MenuModel().DataGetn(ContentNameManager.More),
             };
 
@@ -73,5 +79,10 @@ namespace KakaoTalk.Main.Local.ViewModels
             mainRegion.Activate(loginContent);
         }
 
+        public void OnLoaded(IViewable view)
+        {
+            Menus = GetMenus();
+            Menu = Menus[0];
+        }
     }
 }

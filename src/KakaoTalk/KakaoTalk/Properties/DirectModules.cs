@@ -1,11 +1,7 @@
 ﻿using Prism.Ioc;
 using Prism.Modularity;
-using Prism.Regions;
-using Prism.Unity;
 
-using Unity;
-
-namespace KakaoTalk.Settings
+namespace KakaoTalk.Properties
 {
     internal class DirectModules : IModule
     {
@@ -23,7 +19,7 @@ namespace KakaoTalk.Settings
             //// IRegionManager를 통해서 Region을 View와 함께 주입
             //IUnityContainer container = containerRegistry.GetContainer();
             //IRegionManager regionManager = container.Resolve<IRegionManager>();
-            
+
             //// MainRegion으로 가져올 때 마다 Instance가 새로 생성됨
             //regionManager.RegisterViewWithRegion("MainRegion", "LoginContent");
 

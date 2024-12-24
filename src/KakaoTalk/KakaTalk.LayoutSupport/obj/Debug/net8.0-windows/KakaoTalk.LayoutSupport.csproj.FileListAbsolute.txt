@@ -20,3 +20,4 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutS
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\Themes\UI\PlaceholderPasswordBox.baml
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\Themes\UI\FriendsBox.baml
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\KakaoTalk.LayoutSupport.csproj.AssemblyReference.cache
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\Themes\UI\ExpandButton.baml

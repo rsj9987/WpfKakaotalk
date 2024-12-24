@@ -1,8 +1,10 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 using Jamesnet.Wpf.Controls;
 using Jamesnet.Wpf.Mvvm;
 
+using KakaoTalk.Core.Models;
 using KakaoTalk.Core.Names;
 
 using Prism.Ioc;
@@ -15,12 +17,34 @@ namespace KakaoTalk.Friends.Local.ViewModels
         private readonly IRegionManager _regionManager;
         private readonly IContainerProvider _containerProvider;
 
+        [ObservableProperty]
+        private List<FriendsModel> _favorites;
+
         public FriendsContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider)
         {
             _regionManager = regionManager;
             _containerProvider = containerProvider;
+
+            Favorites = GetFavorites();
         }
 
+        private List<FriendsModel> GetFavorites()
+        {
+            List<FriendsModel> source = new()
+            {
+                new FriendsModel().DataGen(1, "James"),
+                new FriendsModel().DataGen(2, "Vickey"),
+                new FriendsModel().DataGen(3, "Hardey"),
+            };
+
+            return source;
+        }
+
+        [RelayCommand]
+        private void DoubleClick(object data)
+        {
+
+        }
 
         [RelayCommand]
         private void Logout()

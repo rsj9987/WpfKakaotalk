@@ -18,7 +18,8 @@
                                          Columns="Auto, *">
                             <StackPanel>
                                 <units:VerticalMenuList ItemsSource="{Binding Menus}"
-                                                        SelectedItem="{Binding Menu}">
+                                                        SelectedItem="{Binding Menu}"
+                                                        IsSynchronizedWithCurrentItem="True">
                                 </units:VerticalMenuList>
                             
                                 <Button Content="Logout"

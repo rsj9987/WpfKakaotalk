@@ -1,4 +1,4 @@
-﻿using KakaoTalk.Settings;
+﻿using KakaoTalk.Properties;
 
 namespace KakaoTalk
 {

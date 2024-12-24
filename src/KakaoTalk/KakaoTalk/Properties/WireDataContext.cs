@@ -12,8 +12,10 @@ using KakaoTalk.Main.Local.ViewModels;
 using KakaoTalk.Main.UI.Views;
 using KakaoTalk.More.Local.ViewModels;
 using KakaoTalk.More.UI.Views;
+using KakaoTalk.Talk.Local.ViewModels;
+using KakaoTalk.Talk.UI.Views;
 
-namespace KakaoTalk.Settings
+namespace KakaoTalk.Properties
 {
     internal class WireDataContext : ViewModelLocationScenario
     {
@@ -25,6 +27,8 @@ namespace KakaoTalk.Settings
             items.Register<FriendsContent, FriendsContentViewModel>();
             items.Register<ChatsContent, ChatsContentViewModel>();
             items.Register<MoreContent, MoreContentViewModel>();
+
+            items.Register<TalkWindow, TalkViewModel>();
         }
     }
 }

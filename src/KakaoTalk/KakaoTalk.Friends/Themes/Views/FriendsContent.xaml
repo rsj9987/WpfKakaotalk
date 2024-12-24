@@ -24,11 +24,10 @@
                                 <birth:BirthdaysBoxItem>asdasd</birth:BirthdaysBoxItem>
                             </birth:BirthdaysBox>
                             
-                            <favorite:FavoriteBox Tag="Favorites">
-                                <favorite:FavoriteBoxItem>asdasd</favorite:FavoriteBoxItem>
-                                <favorite:FavoriteBoxItem>asdasd</favorite:FavoriteBoxItem>
-                                <favorite:FavoriteBoxItem>asdasd</favorite:FavoriteBoxItem>
-                                <favorite:FavoriteBoxItem>asdasd</favorite:FavoriteBoxItem>
+                            <favorite:FavoriteBox Tag="Favorites"
+                                                  DoubleClickCommand="{Binding DoubleClickCommand}"
+                                                  ItemsSource="{Binding Favorites}">
+                                
                             </favorite:FavoriteBox>
 
                         </StackPanel>
