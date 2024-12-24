@@ -6,6 +6,7 @@ using Jamesnet.Wpf.Mvvm;
 
 using KakaoTalk.Core.Models;
 using KakaoTalk.Core.Names;
+using KakaoTalk.Talk.UI.Views;
 
 using Prism.Ioc;
 using Prism.Regions;
@@ -41,9 +42,13 @@ namespace KakaoTalk.Friends.Local.ViewModels
         }
 
         [RelayCommand]
-        private void DoubleClick(object data)
+        private void DoubleClick(FriendsModel data)
         {
-
+            TalkWindow talkWindow = new();
+            talkWindow.Title = data.Name;
+            talkWindow.Width = 360;
+            talkWindow.Height = 500;
+            talkWindow.ShowDialog();
         }
 
         [RelayCommand]

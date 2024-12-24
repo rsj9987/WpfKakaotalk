@@ -3,6 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
     <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/KakaoTalk.Talk;component/Themes/Views/TalkContent.xaml"/>
         <ResourceDictionary Source="/KakaoTalk.Talk;component/Themes/Views/TalkWindow.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     

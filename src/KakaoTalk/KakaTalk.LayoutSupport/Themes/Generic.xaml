@@ -1,4 +1,4 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
     <ResourceDictionary.MergedDictionaries>
@@ -7,6 +7,8 @@
         <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/ExpandButton.xaml"/>
         <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/FriendsBox.xaml"/>
         <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/TaskBarButton.xaml"/>
+        <ResourceDictionary Source="/KakaoTalk.LayoutSupport;component/Themes/UI/SendTextBox.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     
+
 </ResourceDictionary>

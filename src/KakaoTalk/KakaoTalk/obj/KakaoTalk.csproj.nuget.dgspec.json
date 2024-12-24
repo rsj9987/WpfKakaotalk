@@ -409,6 +409,9 @@
               },
               "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends.Favorite\\KakaoTalk.Friends.Favorite.csproj": {
                 "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Friends.Favorite\\KakaoTalk.Friends.Favorite.csproj"
+              },
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Talk\\KakaoTalk.Talk.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Talk\\KakaoTalk.Talk.csproj"
               }
             }
           }
@@ -724,6 +727,9 @@
             "projectReferences": {
               "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
                 "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              },
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaTalk.LayoutSupport\\KakaoTalk.LayoutSupport.csproj"
               }
             }
           }

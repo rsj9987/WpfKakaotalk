@@ -5,6 +5,9 @@
     <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\UI\SendTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\UI\PlaceholderPasswordBox.xaml">
       <SubType>Designer</SubType>
     </Page>

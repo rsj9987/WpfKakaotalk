@@ -3,16 +3,17 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:views="clr-namespace:KakaoTalk.Talk.UI.Views" 
     xmlns:james="https://jamesnet.dev/xaml/presentation"
-    xmlns:names="clr-namespace:KakaoTalk.Core.Names;assembly=KakaoTalk.Core">
+    xmlns:names="clr-namespace:KakaoTalk.Core.Names;assembly=KakaoTalk.Core"
+    xmlns:based="clr-namespace:KakaoTalk.LayoutSupport.UI.Units;assembly=KakaoTalk.LayoutSupport">
 
-    <Style TargetType="{x:Type views:TalkWindow}">
+    <Style TargetType="{x:Type views:TalkContent}">
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="{x:Type views:TalkWindow}">
+                <ControlTemplate TargetType="{x:Type views:TalkContent}">
                     <Border Background="{TemplateBinding Background}"
                             BorderBrush="{TemplateBinding BorderBrush}"
                             BorderThickness="{TemplateBinding BorderThickness}">
-                        <views:TalkContent/>
+                        <based:SendTextBox Text="Test" FontSize="30"/>
                     </Border>
                 </ControlTemplate>
             </Setter.Value>

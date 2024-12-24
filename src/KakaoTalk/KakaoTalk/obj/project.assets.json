@@ -663,7 +663,8 @@
           "Jamesnet.Wpf": "1.0.0.113",
           "KakaoTalk.Core": "1.0.0",
           "KakaoTalk.Friends.Birth": "1.0.0",
-          "KakaoTalk.Friends.Favorite": "1.0.0"
+          "KakaoTalk.Friends.Favorite": "1.0.0",
+          "KakaoTalk.Talk": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.Friends.dll": {}
@@ -780,7 +781,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
-          "KakaoTalk.Core": "1.0.0"
+          "KakaoTalk.Core": "1.0.0",
+          "KakaoTalk.LayoutSupport": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.Talk.dll": {}
