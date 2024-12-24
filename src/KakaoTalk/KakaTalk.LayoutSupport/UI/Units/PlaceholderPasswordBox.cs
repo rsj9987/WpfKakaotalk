@@ -7,32 +7,18 @@ namespace KakaoTalk.LayoutSupport.UI.Units
     {
 
 
-        public string PlaceholderText
-        {
-            get { return (string)GetValue(PlaceholderTextProperty); }
-            set { SetValue(PlaceholderTextProperty, value); }
-        }
-
-        // Using a DependencyProperty as the backing store for PlaceholderText.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty PlaceholderTextProperty =
             DependencyProperty.Register("PlaceholderText", typeof(string), typeof(PlaceholderPasswordBox), new PropertyMetadata(""));
-
 
         static PlaceholderPasswordBox()
         {
             DefaultStyleKeyProperty.OverrideMetadata(typeof(PlaceholderPasswordBox), new FrameworkPropertyMetadata(typeof(PlaceholderPasswordBox)));
         }
 
-        public override void OnApplyTemplate()
+        public string PlaceholderText
         {
-            base.OnApplyTemplate();
-
-
-
-            if (GetTemplateChild("PART_PasswordBox") is PasswordBox pwd)
-            {
-                pwd.PasswordChanged += Pwd_PasswordChanged;
-            }
+            get { return (string)GetValue(PlaceholderTextProperty); }
+            set { SetValue(PlaceholderTextProperty, value); }
         }
 
         private void Pwd_PasswordChanged(object sender, RoutedEventArgs e)
@@ -52,6 +38,17 @@ namespace KakaoTalk.LayoutSupport.UI.Units
                 {
                     passwordBox.Focus();
                 }
+            }
+        }
+        public override void OnApplyTemplate()
+        {
+            base.OnApplyTemplate();
+
+
+
+            if (GetTemplateChild("PART_PasswordBox") is PasswordBox pwd)
+            {
+                pwd.PasswordChanged += Pwd_PasswordChanged;
             }
         }
     }

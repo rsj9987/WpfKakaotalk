@@ -181,7 +181,11 @@
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj": {
+                "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Core\\KakaoTalk.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

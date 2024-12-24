@@ -20,3 +20,5 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friend
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends.Birth\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends.Birth\obj\Debug\net8.0-windows\KakaoTalk.Friends.Birth_MarkupCompile.lref
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends.Birth\obj\Debug\net8.0-windows\Themes\Units\BirthdaysBoxItem.baml
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends.Birth\bin\Debug\net8.0-windows\KakaoTalk.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk.Friends.Birth\bin\Debug\net8.0-windows\KakaoTalk.Core.pdb

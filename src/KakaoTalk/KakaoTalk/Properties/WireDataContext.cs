@@ -29,6 +29,7 @@ namespace KakaoTalk.Properties
             items.Register<MoreContent, MoreContentViewModel>();
 
             items.Register<TalkWindow, TalkViewModel>();
+            items.Register<TalkContent, TalkContentViewModel>();
         }
     }
 }

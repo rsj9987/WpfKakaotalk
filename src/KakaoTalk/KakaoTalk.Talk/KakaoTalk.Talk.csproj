@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KakaoTalk.Core\KakaoTalk.Core.csproj" />
+    <ProjectReference Include="..\KakaoTalk.Talk.TextMessage\KakaoTalk.Talk.TextMessage.csproj" />
     <ProjectReference Include="..\KakaTalk.LayoutSupport\KakaoTalk.LayoutSupport.csproj" />
   </ItemGroup>
 

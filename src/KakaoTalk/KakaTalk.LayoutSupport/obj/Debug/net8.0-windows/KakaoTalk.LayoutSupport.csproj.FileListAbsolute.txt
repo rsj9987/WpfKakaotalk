@@ -22,3 +22,6 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutS
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\KakaoTalk.LayoutSupport.csproj.AssemblyReference.cache
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\Themes\UI\ExpandButton.baml
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\Themes\UI\SendTextBox.baml
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\bin\Debug\net8.0-windows\KakaoTalk.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\bin\Debug\net8.0-windows\KakaoTalk.Core.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaTalk.LayoutSupport\obj\Debug\net8.0-windows\KakaoTal.68E7302E.Up2Date

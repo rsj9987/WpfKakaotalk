@@ -626,7 +626,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.113"
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/KakaoTalk.LayoutSupport.dll": {}

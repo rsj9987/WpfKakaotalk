@@ -428,7 +428,8 @@
       },
       "KakaoTalk.LayoutSupport/1.0.0": {
         "dependencies": {
-          "Jamesnet.Wpf": "1.0.0.113"
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
         },
         "runtime": {
           "KakaoTalk.LayoutSupport.dll": {
@@ -478,10 +479,22 @@
         "dependencies": {
           "Jamesnet.Wpf": "1.0.0.113",
           "KakaoTalk.Core": "1.0.0",
-          "KakaoTalk.LayoutSupport": "1.0.0"
+          "KakaoTalk.LayoutSupport": "1.0.0",
+          "KakaoTalk.Talk.TextMessage": "1.0.0"
         },
         "runtime": {
           "KakaoTalk.Talk.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "KakaoTalk.Talk.TextMessage/1.0.0": {
+        "dependencies": {
+          "KakaoTalk.LayoutSupport": "1.0.0"
+        },
+        "runtime": {
+          "KakaoTalk.Talk.TextMessage.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -826,6 +839,11 @@
       "sha512": ""
     },
     "KakaoTalk.Talk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.Talk.TextMessage/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

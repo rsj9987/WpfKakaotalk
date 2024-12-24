@@ -106,3 +106,5 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\De
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Friends.Favorite.pdb
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Talk.dll
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Talk.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Talk.TextMessage.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Talk.TextMessage.pdb
