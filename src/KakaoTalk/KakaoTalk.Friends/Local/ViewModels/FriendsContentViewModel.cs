@@ -6,6 +6,7 @@ using Jamesnet.Wpf.Mvvm;
 
 using KakaoTalk.Core.Models;
 using KakaoTalk.Core.Names;
+using KakaoTalk.Core.Talking;
 using KakaoTalk.Talk.UI.Views;
 
 using Prism.Ioc;
@@ -17,15 +18,16 @@ namespace KakaoTalk.Friends.Local.ViewModels
     {
         private readonly IRegionManager _regionManager;
         private readonly IContainerProvider _containerProvider;
+        private readonly TalkWindowManager _talkWindowManager;
 
         [ObservableProperty]
         private List<FriendsModel> _favorites;
 
-        public FriendsContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider)
+        public FriendsContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider, TalkWindowManager talkWindowManager)
         {
             _regionManager = regionManager;
             _containerProvider = containerProvider;
-
+            _talkWindowManager = talkWindowManager;
             Favorites = GetFavorites();
         }
 
@@ -44,11 +46,12 @@ namespace KakaoTalk.Friends.Local.ViewModels
         [RelayCommand]
         private void DoubleClick(FriendsModel data)
         {
-            TalkWindow talkWindow = new();
+            TalkWindow talkWindow = _talkWindowManager.ResolveWindow<TalkWindow>(data.Id);
+            if (talkWindow.IsLoaded) return;
             talkWindow.Title = data.Name;
             talkWindow.Width = 360;
             talkWindow.Height = 500;
-            talkWindow.ShowDialog();
+            talkWindow.Show();
         }
 
         [RelayCommand]

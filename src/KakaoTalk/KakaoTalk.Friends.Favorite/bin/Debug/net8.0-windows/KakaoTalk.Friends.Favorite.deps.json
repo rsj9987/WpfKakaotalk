@@ -350,6 +350,9 @@
         }
       },
       "KakaoTalk.Core/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113"
+        },
         "runtime": {
           "KakaoTalk.Core.dll": {
             "assemblyVersion": "1.0.0",
