@@ -61,7 +61,6 @@ namespace KakaoTalk.Talk.Local.ViewModels
             {
                 Chats.Add(chat);
             }
-
         }
 
     }
