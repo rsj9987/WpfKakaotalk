@@ -814,6 +814,23 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "KakaoTalk.Tests/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KakaoTalk.Tests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KakaoTalk.Tests.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -2827,6 +2844,11 @@
       "type": "project",
       "path": "../KakaoTalk.Talk.TextMessage/KakaoTalk.Talk.TextMessage.csproj",
       "msbuildProject": "../KakaoTalk.Talk.TextMessage/KakaoTalk.Talk.TextMessage.csproj"
+    },
+    "KakaoTalk.Tests/1.0.0": {
+      "type": "project",
+      "path": "../KakaoTalk.Tests/KakaoTalk.Tests.csproj",
+      "msbuildProject": "../KakaoTalk.Tests/KakaoTalk.Tests.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2839,7 +2861,8 @@
       "KakaoTalk.Login >= 1.0.0",
       "KakaoTalk.Main >= 1.0.0",
       "KakaoTalk.More >= 1.0.0",
-      "KakaoTalk.Talk >= 1.0.0"
+      "KakaoTalk.Talk >= 1.0.0",
+      "KakaoTalk.Tests >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2898,6 +2921,9 @@
             },
             "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Talk\\KakaoTalk.Talk.csproj": {
               "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Talk\\KakaoTalk.Talk.csproj"
+            },
+            "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Tests\\KakaoTalk.Tests.csproj": {
+              "projectPath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Tests\\KakaoTalk.Tests.csproj"
             }
           }
         }

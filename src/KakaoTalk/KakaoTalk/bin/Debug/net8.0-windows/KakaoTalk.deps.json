@@ -16,7 +16,8 @@
           "KakaoTalk.Login": "1.0.0",
           "KakaoTalk.Main": "1.0.0",
           "KakaoTalk.More": "1.0.0",
-          "KakaoTalk.Talk": "1.0.0"
+          "KakaoTalk.Talk": "1.0.0",
+          "KakaoTalk.Tests": "1.0.0"
         },
         "runtime": {
           "KakaoTalk.dll": {}
@@ -502,6 +503,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "KakaoTalk.Tests/1.0.0": {
+        "dependencies": {
+          "Jamesnet.Wpf": "1.0.0.113",
+          "KakaoTalk.Core": "1.0.0"
+        },
+        "runtime": {
+          "KakaoTalk.Tests.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -847,6 +860,11 @@
       "sha512": ""
     },
     "KakaoTalk.Talk.TextMessage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KakaoTalk.Tests/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

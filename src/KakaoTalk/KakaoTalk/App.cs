@@ -2,10 +2,7 @@
 
 using Jamesnet.Wpf.Controls;
 
-using KakaoTalk.Core.Talking;
 using KakaoTalk.Forms.UI.Views;
-
-using Prism.Ioc;
 
 namespace KakaoTalk
 {
@@ -16,13 +13,11 @@ namespace KakaoTalk
             return new KakaoWindow();
         }
 
-        protected override void RegisterTypes(IContainerRegistry containerRegistry)
-        {
-            base.RegisterTypes(containerRegistry);
+        //protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        //{
+        //    base.RegisterTypes(containerRegistry);
+        //}
 
-            containerRegistry.RegisterInstance(new TalkWindowManager());
-
-        }
         //protected override void OnStartup(StartupEventArgs e)
         //{
         //    base.OnStartup(e);

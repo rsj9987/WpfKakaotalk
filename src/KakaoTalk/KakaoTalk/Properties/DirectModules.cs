@@ -1,4 +1,6 @@
-﻿using Prism.Ioc;
+﻿using KakaoTalk.Core.Talking;
+
+using Prism.Ioc;
 using Prism.Modularity;
 
 namespace KakaoTalk.Properties
@@ -22,6 +24,9 @@ namespace KakaoTalk.Properties
 
             //// MainRegion으로 가져올 때 마다 Instance가 새로 생성됨
             //regionManager.RegisterViewWithRegion("MainRegion", "LoginContent");
+
+            containerRegistry.RegisterInstance(new TalkWindowManager());
+            containerRegistry.RegisterInstance(new ChatStorage());
 
 
         }

@@ -2,8 +2,11 @@
 using CommunityToolkit.Mvvm.Input;
 
 using Jamesnet.Wpf.Controls;
+using Jamesnet.Wpf.Global.Event;
 using Jamesnet.Wpf.Mvvm;
 
+using KakaoTalk.Core.Args;
+using KakaoTalk.Core.Events;
 using KakaoTalk.Core.Models;
 using KakaoTalk.Core.Names;
 using KakaoTalk.Core.Talking;
@@ -16,6 +19,7 @@ namespace KakaoTalk.Friends.Local.ViewModels
 {
     public partial class FriendsContentViewModel : ObservableBase
     {
+        private readonly IEventHub _eventHub;
         private readonly IRegionManager _regionManager;
         private readonly IContainerProvider _containerProvider;
         private readonly TalkWindowManager _talkWindowManager;
@@ -23,12 +27,21 @@ namespace KakaoTalk.Friends.Local.ViewModels
         [ObservableProperty]
         private List<FriendsModel> _favorites;
 
-        public FriendsContentViewModel(IRegionManager regionManager, IContainerProvider containerProvider, TalkWindowManager talkWindowManager)
+        public FriendsContentViewModel(IEventHub eventHub, IRegionManager regionManager, IContainerProvider containerProvider, TalkWindowManager talkWindowManager)
         {
+            _eventHub = eventHub;
             _regionManager = regionManager;
             _containerProvider = containerProvider;
             _talkWindowManager = talkWindowManager;
+
+            _talkWindowManager.WindowCountChanged += _talkWindowManager_WindowCountChanged;
             Favorites = GetFavorites();
+        }
+
+        private void _talkWindowManager_WindowCountChanged(object? sender, EventArgs e)
+        {
+            RefreshTalkWindowArgs args = new();
+            _eventHub.Publish<RefreshTalkWindowEvent, RefreshTalkWindowArgs>(args);
         }
 
         private List<FriendsModel> GetFavorites()
@@ -48,6 +61,7 @@ namespace KakaoTalk.Friends.Local.ViewModels
         {
             TalkWindow talkWindow = _talkWindowManager.ResolveWindow<TalkWindow>(data.Id);
             if (talkWindow.IsLoaded) return;
+            talkWindow.Content = new TalkContent();
             talkWindow.Title = data.Name;
             talkWindow.Width = 360;
             talkWindow.Height = 500;
@@ -67,6 +81,16 @@ namespace KakaoTalk.Friends.Local.ViewModels
             }
 
             mainRegion.Activate(mainContent);
+        }
+        [RelayCommand]
+        private void ShowSimulator()
+        {
+            var simulatorWindow = _containerProvider.Resolve<IViewable>(ContentNameManager.Simulator);
+
+            if (simulatorWindow is JamesWindow window)
+            {
+                window.Show();
+            }
         }
     }
 }

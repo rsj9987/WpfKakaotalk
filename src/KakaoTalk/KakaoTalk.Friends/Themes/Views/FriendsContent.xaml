@@ -30,6 +30,12 @@
                                 
                             </favorite:FavoriteBox>
 
+                            <Button Content="Show Simulator"
+                                    Margin="10"
+                                    Padding="8 4 8 4"
+                                    HorizontalAlignment="Left"
+                                    Command="{Binding ShowSimulatorCommand}"/>
+
                         </StackPanel>
                     </Border>
                     <ControlTemplate.Triggers>

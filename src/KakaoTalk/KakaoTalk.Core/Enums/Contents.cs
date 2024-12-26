@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace KakaoTalk.Core.Enums
+﻿namespace KakaoTalk.Core.Enums
 {
     public enum Contents
     {
@@ -13,6 +7,6 @@ namespace KakaoTalk.Core.Enums
         Friends,
         Chats,
         More,
-
+        Simulator,
     }
 }

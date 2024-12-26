@@ -14,6 +14,8 @@ using KakaoTalk.More.Local.ViewModels;
 using KakaoTalk.More.UI.Views;
 using KakaoTalk.Talk.Local.ViewModels;
 using KakaoTalk.Talk.UI.Views;
+using KakaoTalk.Tests.Local.ViewModels;
+using KakaoTalk.Tests.UI.Views;
 
 namespace KakaoTalk.Properties
 {
@@ -30,6 +32,8 @@ namespace KakaoTalk.Properties
 
             items.Register<TalkWindow, TalkViewModel>();
             items.Register<TalkContent, TalkContentViewModel>();
+
+            items.Register<SimulatorWindow, SimulatorViewModel>();
         }
     }
 }

@@ -14,13 +14,6 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Viewbox Width="6" Height="6"
-                 Grid.Column="0"
-                 VerticalAlignment="Top"
-                 Margin="0 5 -1.5 0">
-                <Path Fill="#FFFFFF" Data="{StaticResource Tail}"/>
-            </Viewbox>
-
             <Border Grid.Column="1" 
                 Background="#ABBDCF"
                 CornerRadius="2"/>
@@ -34,6 +27,14 @@
                 <!--1픽셀 잡으려면 0.51-->
                 <TextBlock Text="{Binding Message}"/>
             </Border>
+
+            <Viewbox Width="6" Height="6"
+                 Grid.Column="0"
+                 VerticalAlignment="Top"
+                 Margin="0 5 -1.5 0">
+                <Path Fill="#FFFFFF" Data="{StaticResource Tail}"/>
+            </Viewbox>
+            
         </Grid>
     </ControlTemplate>
 
@@ -45,15 +46,6 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Viewbox Width="6" Height="6"
-                     Grid.Column="1"
-                     VerticalAlignment="Top"
-                     Margin="-0.5 5 0 0">
-                <Viewbox.LayoutTransform>
-                    <ScaleTransform ScaleX="-1"/>
-                </Viewbox.LayoutTransform>
-                <Path Fill="#FFFFFF" Data="{StaticResource Tail}"/>
-            </Viewbox>
 
             <Border Grid.Column="0" 
             Background="#ABBDCF"
@@ -68,6 +60,16 @@
                 <!--1픽셀 잡으려면 0.51-->
                 <TextBlock Text="{Binding Message}"/>
             </Border>
+
+            <Viewbox Width="6" Height="6"
+                     Grid.Column="1"
+                     VerticalAlignment="Top"
+                     Margin="-0.5 5 0 0">
+                <Viewbox.LayoutTransform>
+                    <ScaleTransform ScaleX="-1"/>
+                </Viewbox.LayoutTransform>
+                <Path Fill="#FFFFFF" Data="{StaticResource Tail}"/>
+            </Viewbox>
         </Grid>
     </ControlTemplate>
 
