@@ -7,6 +7,7 @@ using Jamesnet.Wpf.Mvvm;
 
 using KakaoTalk.Core.Args;
 using KakaoTalk.Core.Events;
+using KakaoTalk.Core.Interfaces;
 using KakaoTalk.Core.Models;
 using KakaoTalk.Core.Names;
 using KakaoTalk.Core.Talking;
@@ -59,12 +60,19 @@ namespace KakaoTalk.Friends.Local.ViewModels
         [RelayCommand]
         private void DoubleClick(FriendsModel data)
         {
+            TalkContent content = new();
             TalkWindow talkWindow = _talkWindowManager.ResolveWindow<TalkWindow>(data.Id);
             if (talkWindow.IsLoaded) return;
-            talkWindow.Content = new TalkContent();
+            talkWindow.Content = content;
             talkWindow.Title = data.Name;
             talkWindow.Width = 360;
             talkWindow.Height = 500;
+
+            if (content.DataContext is IReceiverInfo info)
+            {
+                info.InitReceiver(data);
+            }
+
             talkWindow.Show();
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KakaoTalk.Login")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02d45c6bb47c0fc91381c0de129e0fd32a7e908f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b19fd506bb0818f847838bd9d3c2063664ff98e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("KakaoTalk.Login")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KakaoTalk.Login")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
