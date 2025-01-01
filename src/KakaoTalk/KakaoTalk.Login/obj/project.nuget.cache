@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "syxex8L3EHA=",
+  "dgSpecHash": "MOMZvoJ3sd8=",
   "success": true,
   "projectFilePath": "C:\\Users\\ANH\\Desktop\\Sources\\WPF\\Try\\WpfKakaotalk\\src\\KakaoTalk\\KakaoTalk.Login\\KakaoTalk.Login.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\ANH\\.nuget\\packages\\jamesnet.wpf\\1.0.0.113\\jamesnet.wpf.1.0.0.113.nupkg.sha512",
     "C:\\Users\\ANH\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\ANH\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\ANH\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Users\\ANH\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
     "C:\\Users\\ANH\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ANH\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",

@@ -4,6 +4,7 @@
     
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="/KakaoTalk.Login;component/Themes/Views/LoginContent.xaml"/>
+        <ResourceDictionary Source="/KakaoTalk.Login;component/Themes/Views/GoogleWindow.xaml"/>
     </ResourceDictionary.MergedDictionaries>
     
 </ResourceDictionary>

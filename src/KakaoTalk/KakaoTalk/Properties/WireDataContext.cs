@@ -34,6 +34,8 @@ namespace KakaoTalk.Properties
             items.Register<TalkContent, TalkContentViewModel>();
 
             items.Register<SimulatorWindow, SimulatorViewModel>();
+
+            items.Register<GoogleWindow, GoogleViewModel>();
         }
     }
 }

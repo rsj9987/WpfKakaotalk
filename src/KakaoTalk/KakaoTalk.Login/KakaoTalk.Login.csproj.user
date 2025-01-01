@@ -5,6 +5,9 @@
     <Page Update="Themes\Generic.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Themes\Views\GoogleWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Themes\Views\LoginContent.xaml">
       <SubType>Designer</SubType>
     </Page>

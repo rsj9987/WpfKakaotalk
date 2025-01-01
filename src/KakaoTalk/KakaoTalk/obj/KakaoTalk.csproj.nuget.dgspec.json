@@ -528,6 +528,10 @@
             "Jamesnet.Wpf": {
               "target": "Package",
               "version": "[1.0.0.113, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.2903.40, )"
             }
           },
           "imports": [

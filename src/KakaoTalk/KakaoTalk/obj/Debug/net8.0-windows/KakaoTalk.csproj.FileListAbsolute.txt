@@ -110,3 +110,12 @@ C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\De
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Talk.TextMessage.pdb
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Tests.dll
 C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\KakaoTalk.Tests.pdb
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\ANH\Desktop\Sources\WPF\Try\WpfKakaotalk\src\KakaoTalk\KakaoTalk\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
