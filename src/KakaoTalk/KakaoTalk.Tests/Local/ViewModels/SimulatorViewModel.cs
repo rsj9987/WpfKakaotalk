@@ -20,12 +20,12 @@ namespace KakaoTalk.Tests.Local.ViewModels
         private readonly TalkWindowManager _talkWindowManager;
 
         [ObservableProperty]
-        private List<KeyValuePair<int, JamesWindow>> _talkWindows = default!;
+        private List<KeyValuePair<string, JamesWindow>> _talkWindows = default!;
 
         [ObservableProperty]
         private string? _receiveText;
         [ObservableProperty]
-        private KeyValuePair<int, JamesWindow> _selectedWindow;
+        private KeyValuePair<string, JamesWindow> _selectedWindow;
 
         public SimulatorViewModel(IEventHub eventHub, TalkWindowManager talkWindowManager)
         {

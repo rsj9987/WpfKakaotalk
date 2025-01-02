@@ -1,4 +1,5 @@
 ﻿using KakaoTalk.Core.Talking;
+using KakaoTalk.Receiver;
 
 using Prism.Ioc;
 using Prism.Modularity;
@@ -27,6 +28,20 @@ namespace KakaoTalk.Properties
 
             containerRegistry.RegisterInstance(new TalkWindowManager());
             containerRegistry.RegisterInstance(new ChatStorage());
+
+            HubManager conn = HubManager.Create();
+
+            if (conn.Connection != null)
+            {
+                conn.Connection.Closed += async (error) =>
+                {
+                    await Task.Delay(new Random().Next(1, 5) * 1000);
+                    await conn.Connection.StartAsync();
+                };
+
+                containerRegistry.RegisterInstance(conn);
+            }
+
 
 
         }

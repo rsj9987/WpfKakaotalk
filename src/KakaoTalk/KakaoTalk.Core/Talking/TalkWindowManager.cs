@@ -6,7 +6,7 @@ namespace KakaoTalk.Core.Talking
 {
     public class TalkWindowManager
     {
-        private Dictionary<int, JamesWindow> _windows = new();
+        private Dictionary<string, JamesWindow> _windows = new();
         public event EventHandler? WindowCountChanged;
 
         public TalkWindowManager()
@@ -14,18 +14,18 @@ namespace KakaoTalk.Core.Talking
 
         }
 
-        public List<KeyValuePair<int, JamesWindow>> GetAllWindows()
+        public List<KeyValuePair<string, JamesWindow>> GetAllWindows()
         {
             return _windows.ToList();
         }
 
-        private void UnregisterWindow(int id)
+        private void UnregisterWindow(string id)
         {
             _windows.Remove(id);
             WindowCountChanged?.Invoke(this, EventArgs.Empty);
         }
 
-        public T ResolveWindow<T>(int id) where T : JamesWindow, new()
+        public T ResolveWindow<T>(string id) where T : JamesWindow, new()
         {
             if (_windows.ContainsKey(id))
             {

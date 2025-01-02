@@ -17,7 +17,7 @@ namespace KakaoTalk.Login.UI.Units
         }
 
         public static readonly DependencyProperty LoginCompletedCommandProperty =
-            DependencyProperty.Register("LoginCompleted", typeof(ICommand), typeof(KakaoWebView), new PropertyMetadata(null));
+            DependencyProperty.Register("LoginCompletedCommand", typeof(ICommand), typeof(KakaoWebView), new PropertyMetadata(null));
 
 
 
@@ -30,7 +30,7 @@ namespace KakaoTalk.Login.UI.Units
         private void KakaoWebView_WebMessageReceived(object? sender, CoreWebView2WebMessageReceivedEventArgs e)
         {
             string userEmail = e.TryGetWebMessageAsString();
-            LoginCompletedCommand.Execute(userEmail);
+            LoginCompletedCommand?.Execute(userEmail);
         }
     }
 }

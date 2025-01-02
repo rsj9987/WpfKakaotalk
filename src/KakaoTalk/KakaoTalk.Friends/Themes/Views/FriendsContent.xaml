@@ -17,11 +17,9 @@
                             <TextBlock Text="Friends"
                                        FontSize="24"/>
 
-                            <birth:BirthdaysBox Tag="Friends With Birthdays">
-                                <birth:BirthdaysBoxItem>asdasd</birth:BirthdaysBoxItem>
-                                <birth:BirthdaysBoxItem>asdasd</birth:BirthdaysBoxItem>
-                                <birth:BirthdaysBoxItem>asdasd</birth:BirthdaysBoxItem>
-                                <birth:BirthdaysBoxItem>asdasd</birth:BirthdaysBoxItem>
+                            <birth:BirthdaysBox Tag="Friends With Birthdays"
+                                                DoubleClickCommand="{Binding DoubleClickCommand}"
+                                                ItemsSource="{Binding Births}">
                             </birth:BirthdaysBox>
                             
                             <favorite:FavoriteBox Tag="Favorites"
@@ -35,6 +33,12 @@
                                     Padding="8 4 8 4"
                                     HorizontalAlignment="Left"
                                     Command="{Binding ShowSimulatorCommand}"/>
+
+                            <Button Content="Sync Friends"
+                                    Margin="10"
+                                    Padding="8 4 8 4"
+                                    HorizontalAlignment="Left"
+                                    Command="{Binding SyncFriendsCommand}"/>
 
                         </StackPanel>
                     </Border>

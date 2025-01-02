@@ -9,7 +9,7 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate>
-                    <TextBlock Text="{Binding Name}"
+                    <TextBlock Text="{Binding Email}"
                                Padding="5"/>
                 </ControlTemplate>
             </Setter.Value>

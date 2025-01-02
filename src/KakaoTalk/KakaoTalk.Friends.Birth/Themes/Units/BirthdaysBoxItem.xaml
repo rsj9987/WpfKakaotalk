@@ -9,7 +9,8 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate>
-                    <TextBlock Text="456456"/>
+                    <TextBlock Text="{Binding Email}"
+                               Padding="5"/>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

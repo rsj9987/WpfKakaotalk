@@ -16,7 +16,7 @@ namespace KakaoTalk.Login.Local.ViewModels
         private string _loginUrl;
         public GoogleViewModel(IEventHub eventHub)
         {
-            LoginUrl = "https://localhost:7121/Account/Login";
+            LoginUrl = "https://localhost:7275/Identity/Account/Login";
             _eventHub = eventHub;
         }
 
